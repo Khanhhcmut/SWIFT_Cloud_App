@@ -42,7 +42,7 @@ Người dùng bấm vào “Help” để tiến hành thay đổi.
 
 * Người dùng có thể build app bằng cách chạy lệnh này trong folder "src" (Lưu ý cần phải có folder "src" và cài đặt các IDE Python cần thiết), lưu ý: lệnh có thể thay đổi tùy vào hệ điều hành mà người dùng sử dụng lệnh phía dưới chỉ áp dụng cho "Windows".
 
-* `pyinstaller --onefile --noconsole --add-data "photos;photos" --add-binary "tools/rclone.exe;tools" --name SWIFT Cloud --icon=photos/logo.ico login.py`
+* `pyinstaller --onefile --noconsole --add-data "photos;photos" --add-binary "tools/rclone.exe;tools" --name SWIFTCloud --icon=photos/logo.ico login.py`
 
 ---- Hướng dẫn cài đặt app SWIFT Cloud cho Windows/Linux/macOS----
 
