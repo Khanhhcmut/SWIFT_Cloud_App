@@ -61,7 +61,7 @@ class LoginWindow(QWidget):
         if os.path.exists(icon_path):
             self.setWindowIcon(QIcon(icon_path))
 
-        self.setWindowTitle("BK Cloud")
+        self.setWindowTitle("SWIFT Cloud")
         self.resize(1440, 900)
         self.setMinimumSize(800, 600)
 
@@ -94,7 +94,7 @@ class LoginWindow(QWidget):
         login_layout.setSpacing(20)
         login_layout.setAlignment(Qt.AlignTop)
 
-        label_title = QLabel("BK Cloud")
+        label_title = QLabel("SWIFT Cloud")
         label_title.setFont(QFont("Arial Rounded MT Bold", 30, QFont.Bold))
         label_title.setAlignment(Qt.AlignCenter)
         label_title.setStyleSheet("background: transparent;")

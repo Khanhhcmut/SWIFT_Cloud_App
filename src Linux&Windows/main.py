@@ -463,7 +463,7 @@ class MainWindow(QWidget):
         if os.path.exists(icon_path):
             self.setWindowIcon(QIcon(icon_path))
 
-        self.setWindowTitle("BK Cloud")
+        self.setWindowTitle("SWIFT Cloud")
         self.setMinimumSize(800, 600)
         self.resize(1440, 900)
 
@@ -480,7 +480,6 @@ class MainWindow(QWidget):
         sidebar_layout = QVBoxLayout(sidebar)
         sidebar_layout.setContentsMargins(10, 30, 10, 10)
 
-        # Logout button (moved above BK Cloud)
         footer_layout = QHBoxLayout()
         logout_btn = QPushButton("Logout")
         help_btn = QPushButton("Help")
@@ -497,7 +496,7 @@ class MainWindow(QWidget):
 
         sidebar_layout.addLayout(footer_layout)
 
-        title_label = QLabel("BK Cloud")
+        title_label = QLabel("SWIFT Cloud")
         title_label.setStyleSheet("font-size: 35px; font-weight: bold; color: white;")
         title_label.setAlignment(Qt.AlignCenter)
         sidebar_layout.addWidget(title_label)

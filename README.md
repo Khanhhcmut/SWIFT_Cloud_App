@@ -1,4 +1,4 @@
-# BK Cloud
+# SWIFT Cloud
 ---- Hướng dẫn cài đặt Devstack Openstack swift trên máy ảo cho tester ----
 
 Bước 1: Tạo user stack và gán quyền cho user đó
@@ -42,16 +42,16 @@ Người dùng bấm vào “Help” để tiến hành thay đổi.
 
 * Người dùng có thể build app bằng cách chạy lệnh này trong folder "src" (Lưu ý cần phải có folder "src" và cài đặt các IDE Python cần thiết), lưu ý: lệnh có thể thay đổi tùy vào hệ điều hành mà người dùng sử dụng lệnh phía dưới chỉ áp dụng cho "Windows".
 
-* `pyinstaller --onefile --noconsole --add-data "photos;photos" --add-binary "tools/rclone.exe;tools" --name BKcloud --icon=photos/logo.ico login.py`
+* `pyinstaller --onefile --noconsole --add-data "photos;photos" --add-binary "tools/rclone.exe;tools" --name SWIFT Cloud --icon=photos/logo.ico login.py`
 
----- Hướng dẫn cài đặt app BK Cloud cho Windows/Linux/macOS----
+---- Hướng dẫn cài đặt app SWIFT Cloud cho Windows/Linux/macOS----
 
 Bước 1: Tải phiên bản phù hợp với hệ điều hành
 
 Bước 2: Giải nén thư mục.
 
-Bước 3: Người dùng có thể bắt đầu dùng app bằng cách sử dụng "BKcloud.exe" (Lưu ý thay đổi đường dẫn URL Swift trong phần Help để tránh lỗi).
+Bước 3: Người dùng có thể bắt đầu dùng app bằng cách sử dụng "SWIFT Cloud.exe" (Lưu ý thay đổi đường dẫn URL Swift trong phần Help để tránh lỗi).
 
-# BK Cloud Diagram
+# SWIFT Cloud Diagram
 
-![bkcloud.png](Readme/bkcloud.png)
+![swiftcloud.png](Readme/swiftcloud.png)
