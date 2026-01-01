@@ -13,7 +13,7 @@ def get_user_data_dir():
         os.path.expanduser("~"),
         "Library",
         "Application Support",
-        "BKcloud"
+        "SWIFTcloud"
     )
     os.makedirs(base, exist_ok=True)
     return base
