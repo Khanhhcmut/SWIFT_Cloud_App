@@ -6,7 +6,7 @@ from utils import resource_path
 HELP_TEXT = """
 
 <div style="text-align: center;">
-<h1>Hướng dẫn sử dụng app BK Cloud</h1>
+<h1>Hướng dẫn sử dụng app SWIFT Cloud</h1>
 </div>
 
 <h2>1. Đăng nhập vào app</h2>
